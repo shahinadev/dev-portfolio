@@ -58,18 +58,16 @@ section {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-
-#exp-item-1 {
+.exp-item {
   box-shadow: -1px 3px 25px 0 #535151;
   border-radius: 5px;
   border-left: 5px solid;
+}
+#exp-item-1 {
   border-image: linear-gradient(salmon, tomato);
   border-image-slice: 1;
 }
 #exp-item-2 {
-  box-shadow: -1px 3px 25px 0 #535151;
-  border-radius: 5px;
-  border-left: 5px solid;
   border-image: linear-gradient(blue, cyan);
   border-image-slice: 1;
 }
@@ -78,6 +76,6 @@ section {
   background-repeat: no-repeat;
   background-position: left bottom;
 }
-footer > p{
-    text-align:center;
+footer > p {
+  text-align: center;
 }
