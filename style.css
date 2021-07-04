@@ -79,3 +79,21 @@ section {
 footer > p {
   text-align: center;
 }
+
+@media (max-width: 776px) {
+  .d-flex {
+    display: block;
+  }
+  section {
+    padding: 30px;
+    margin-bottom: 120px;
+  }
+  .w-50,
+  .w-40 {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  .w-50 > img {
+    width: 100%;
+  }
+}
