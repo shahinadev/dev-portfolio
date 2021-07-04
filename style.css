@@ -5,12 +5,24 @@ body {
 h1 {
   font-size: 50px;
 }
+.text-large {
+  font-size: 30px;
+}
 h3 {
   font-size: 40px;
 }
+p {
+  color: #4b4a4a;
+}
 .w-50 {
   width: 50%;
-  padding: 0 40px;
+  padding: 0 38px;
+}
+.w-40 {
+  width: 40%;
+  padding: 5px 30px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .d-flex {
   display: flex;
@@ -21,9 +33,7 @@ h3 {
 .w-50 > img {
   width: 90%;
 }
-.w-30 > img {
-  width: 30%;
-}
+
 .head-sec {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
@@ -47,4 +57,27 @@ section {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+#exp-item-1 {
+  box-shadow: -1px 3px 25px 0 #535151;
+  border-radius: 5px;
+  border-left: 5px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+#exp-item-2 {
+  box-shadow: -1px 3px 25px 0 #535151;
+  border-radius: 5px;
+  border-left: 5px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.expriece-sec {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+footer > p{
+    text-align:center;
 }
